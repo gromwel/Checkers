@@ -7,85 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0324A5D1ED1CDFE0029C134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A5C1ED1CDFE0029C134 /* main.m */; };
-		C0324A601ED1CDFE0029C134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A5F1ED1CDFE0029C134 /* AppDelegate.m */; };
-		C0324A631ED1CDFE0029C134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A621ED1CDFE0029C134 /* ViewController.m */; };
-		C0324A661ED1CDFE0029C134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0324A641ED1CDFE0029C134 /* Main.storyboard */; };
-		C0324A691ED1CDFE0029C134 /* Checkers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0324A671ED1CDFE0029C134 /* Checkers.xcdatamodeld */; };
-		C0324A6B1ED1CDFE0029C134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0324A6A1ED1CDFE0029C134 /* Assets.xcassets */; };
-		C0324A6E1ED1CDFE0029C134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0324A6C1ED1CDFE0029C134 /* LaunchScreen.storyboard */; };
-		C0324A791ED1CDFE0029C134 /* CheckersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A781ED1CDFE0029C134 /* CheckersTests.m */; };
-		C0324A841ED1CDFE0029C134 /* CheckersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A831ED1CDFE0029C134 /* CheckersUITests.m */; };
-		C0EB66CC1ED1D020009885E6 /* PPCheckersSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66C21ED1D020009885E6 /* PPCheckersSquare.m */; };
-		C0EB66CD1ED1D020009885E6 /* PPCheckersPieces.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66C41ED1D020009885E6 /* PPCheckersPieces.m */; };
-		C0EB66CF1ED1D020009885E6 /* PPHelpFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66C81ED1D020009885E6 /* PPHelpFunction.m */; };
-		C0EB66D31ED1EB66009885E6 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66D21ED1EB66009885E6 /* PPViewController.m */; };
-		C0EB66D51ED1EC15009885E6 /* PPCheckersBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66D41ED1EC15009885E6 /* PPCheckersBoard.m */; };
+		C03F6EAF1ED2285F00A7F12C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EAE1ED2285F00A7F12C /* main.m */; };
+		C03F6EB21ED2285F00A7F12C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EB11ED2285F00A7F12C /* AppDelegate.m */; };
+		C03F6EB51ED2285F00A7F12C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EB41ED2285F00A7F12C /* ViewController.m */; };
+		C03F6EB81ED2285F00A7F12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03F6EB61ED2285F00A7F12C /* Main.storyboard */; };
+		C03F6EBB1ED2285F00A7F12C /* Checkers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EB91ED2285F00A7F12C /* Checkers.xcdatamodeld */; };
+		C03F6EBD1ED2285F00A7F12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03F6EBC1ED2285F00A7F12C /* Assets.xcassets */; };
+		C03F6EC01ED2286000A7F12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03F6EBE1ED2286000A7F12C /* LaunchScreen.storyboard */; };
+		C03F6ECB1ED2286000A7F12C /* CheckersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6ECA1ED2286000A7F12C /* CheckersTests.m */; };
+		C03F6ED61ED2286100A7F12C /* CheckersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6ED51ED2286100A7F12C /* CheckersUITests.m */; };
+		C03F6EED1ED228A600A7F12C /* PPCheckersBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EE41ED228A600A7F12C /* PPCheckersBoard.m */; };
+		C03F6EEE1ED228A600A7F12C /* PPCheckersPieces.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EE61ED228A600A7F12C /* PPCheckersPieces.m */; };
+		C03F6EEF1ED228A600A7F12C /* PPCheckersSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EE81ED228A600A7F12C /* PPCheckersSquare.m */; };
+		C03F6EF01ED228A600A7F12C /* PPHelpFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EEA1ED228A600A7F12C /* PPHelpFunction.m */; };
+		C03F6EF11ED228A600A7F12C /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F6EEC1ED228A600A7F12C /* PPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C0324A751ED1CDFE0029C134 /* PBXContainerItemProxy */ = {
+		C03F6EC71ED2286000A7F12C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C0324A501ED1CDFE0029C134 /* Project object */;
+			containerPortal = C03F6EA21ED2285D00A7F12C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0324A571ED1CDFE0029C134;
+			remoteGlobalIDString = C03F6EA91ED2285E00A7F12C;
 			remoteInfo = Checkers;
 		};
-		C0324A801ED1CDFE0029C134 /* PBXContainerItemProxy */ = {
+		C03F6ED21ED2286000A7F12C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C0324A501ED1CDFE0029C134 /* Project object */;
+			containerPortal = C03F6EA21ED2285D00A7F12C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0324A571ED1CDFE0029C134;
+			remoteGlobalIDString = C03F6EA91ED2285E00A7F12C;
 			remoteInfo = Checkers;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C0324A581ED1CDFE0029C134 /* Checkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0324A5C1ED1CDFE0029C134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0324A5E1ED1CDFE0029C134 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C0324A5F1ED1CDFE0029C134 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0324A611ED1CDFE0029C134 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0324A621ED1CDFE0029C134 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C0324A651ED1CDFE0029C134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0324A681ED1CDFE0029C134 /* Checkers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Checkers.xcdatamodel; sourceTree = "<group>"; };
-		C0324A6A1ED1CDFE0029C134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C0324A6D1ED1CDFE0029C134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C0324A6F1ED1CDFE0029C134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0324A741ED1CDFE0029C134 /* CheckersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0324A781ED1CDFE0029C134 /* CheckersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckersTests.m; sourceTree = "<group>"; };
-		C0324A7A1ED1CDFE0029C134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0324A7F1ED1CDFE0029C134 /* CheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0324A831ED1CDFE0029C134 /* CheckersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckersUITests.m; sourceTree = "<group>"; };
-		C0324A851ED1CDFE0029C134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0EB66C11ED1D020009885E6 /* PPCheckersSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersSquare.h; sourceTree = "<group>"; };
-		C0EB66C21ED1D020009885E6 /* PPCheckersSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersSquare.m; sourceTree = "<group>"; };
-		C0EB66C31ED1D020009885E6 /* PPCheckersPieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersPieces.h; sourceTree = "<group>"; };
-		C0EB66C41ED1D020009885E6 /* PPCheckersPieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersPieces.m; sourceTree = "<group>"; };
-		C0EB66C51ED1D020009885E6 /* PPCheckersBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersBoard.h; sourceTree = "<group>"; };
-		C0EB66C71ED1D020009885E6 /* PPHelpFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHelpFunction.h; sourceTree = "<group>"; };
-		C0EB66C81ED1D020009885E6 /* PPHelpFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHelpFunction.m; sourceTree = "<group>"; };
-		C0EB66C91ED1D020009885E6 /* PPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
-		C0EB66D21ED1EB66009885E6 /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
-		C0EB66D41ED1EC15009885E6 /* PPCheckersBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersBoard.m; sourceTree = "<group>"; };
+		C03F6EAA1ED2285E00A7F12C /* Checkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03F6EAE1ED2285F00A7F12C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C03F6EB01ED2285F00A7F12C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C03F6EB11ED2285F00A7F12C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C03F6EB31ED2285F00A7F12C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C03F6EB41ED2285F00A7F12C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C03F6EB71ED2285F00A7F12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C03F6EBA1ED2285F00A7F12C /* Checkers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Checkers.xcdatamodel; sourceTree = "<group>"; };
+		C03F6EBC1ED2285F00A7F12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03F6EBF1ED2286000A7F12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C03F6EC11ED2286000A7F12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03F6EC61ED2286000A7F12C /* CheckersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03F6ECA1ED2286000A7F12C /* CheckersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckersTests.m; sourceTree = "<group>"; };
+		C03F6ECC1ED2286000A7F12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03F6ED11ED2286000A7F12C /* CheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03F6ED51ED2286100A7F12C /* CheckersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckersUITests.m; sourceTree = "<group>"; };
+		C03F6ED71ED2286100A7F12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03F6EE31ED228A600A7F12C /* PPCheckersBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersBoard.h; sourceTree = "<group>"; };
+		C03F6EE41ED228A600A7F12C /* PPCheckersBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersBoard.m; sourceTree = "<group>"; };
+		C03F6EE51ED228A600A7F12C /* PPCheckersPieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersPieces.h; sourceTree = "<group>"; };
+		C03F6EE61ED228A600A7F12C /* PPCheckersPieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersPieces.m; sourceTree = "<group>"; };
+		C03F6EE71ED228A600A7F12C /* PPCheckersSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersSquare.h; sourceTree = "<group>"; };
+		C03F6EE81ED228A600A7F12C /* PPCheckersSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersSquare.m; sourceTree = "<group>"; };
+		C03F6EE91ED228A600A7F12C /* PPHelpFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHelpFunction.h; sourceTree = "<group>"; };
+		C03F6EEA1ED228A600A7F12C /* PPHelpFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHelpFunction.m; sourceTree = "<group>"; };
+		C03F6EEB1ED228A600A7F12C /* PPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		C03F6EEC1ED228A600A7F12C /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0324A551ED1CDFE0029C134 /* Frameworks */ = {
+		C03F6EA71ED2285E00A7F12C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0324A711ED1CDFE0029C134 /* Frameworks */ = {
+		C03F6EC31ED2286000A7F12C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0324A7C1ED1CDFE0029C134 /* Frameworks */ = {
+		C03F6ECE1ED2286000A7F12C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,97 +95,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C0324A4F1ED1CDFE0029C134 = {
+		C03F6EA11ED2285D00A7F12C = {
 			isa = PBXGroup;
 			children = (
-				C0324A5A1ED1CDFE0029C134 /* Checkers */,
-				C0324A771ED1CDFE0029C134 /* CheckersTests */,
-				C0324A821ED1CDFE0029C134 /* CheckersUITests */,
-				C0324A591ED1CDFE0029C134 /* Products */,
+				C03F6EAC1ED2285F00A7F12C /* Checkers */,
+				C03F6EC91ED2286000A7F12C /* CheckersTests */,
+				C03F6ED41ED2286000A7F12C /* CheckersUITests */,
+				C03F6EAB1ED2285E00A7F12C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C0324A591ED1CDFE0029C134 /* Products */ = {
+		C03F6EAB1ED2285E00A7F12C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0324A581ED1CDFE0029C134 /* Checkers.app */,
-				C0324A741ED1CDFE0029C134 /* CheckersTests.xctest */,
-				C0324A7F1ED1CDFE0029C134 /* CheckersUITests.xctest */,
+				C03F6EAA1ED2285E00A7F12C /* Checkers.app */,
+				C03F6EC61ED2286000A7F12C /* CheckersTests.xctest */,
+				C03F6ED11ED2286000A7F12C /* CheckersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0324A5A1ED1CDFE0029C134 /* Checkers */ = {
+		C03F6EAC1ED2285F00A7F12C /* Checkers */ = {
 			isa = PBXGroup;
 			children = (
-				C0EB66D11ED1D6CD009885E6 /* CheckersClass */,
-				C0324A5E1ED1CDFE0029C134 /* AppDelegate.h */,
-				C0324A5F1ED1CDFE0029C134 /* AppDelegate.m */,
-				C0324A611ED1CDFE0029C134 /* ViewController.h */,
-				C0324A621ED1CDFE0029C134 /* ViewController.m */,
-				C0324A641ED1CDFE0029C134 /* Main.storyboard */,
-				C0324A6A1ED1CDFE0029C134 /* Assets.xcassets */,
-				C0324A6C1ED1CDFE0029C134 /* LaunchScreen.storyboard */,
-				C0324A6F1ED1CDFE0029C134 /* Info.plist */,
-				C0324A671ED1CDFE0029C134 /* Checkers.xcdatamodeld */,
-				C0324A5B1ED1CDFE0029C134 /* Supporting Files */,
+				C03F6EE31ED228A600A7F12C /* PPCheckersBoard.h */,
+				C03F6EE41ED228A600A7F12C /* PPCheckersBoard.m */,
+				C03F6EE51ED228A600A7F12C /* PPCheckersPieces.h */,
+				C03F6EE61ED228A600A7F12C /* PPCheckersPieces.m */,
+				C03F6EE71ED228A600A7F12C /* PPCheckersSquare.h */,
+				C03F6EE81ED228A600A7F12C /* PPCheckersSquare.m */,
+				C03F6EE91ED228A600A7F12C /* PPHelpFunction.h */,
+				C03F6EEA1ED228A600A7F12C /* PPHelpFunction.m */,
+				C03F6EEB1ED228A600A7F12C /* PPViewController.h */,
+				C03F6EEC1ED228A600A7F12C /* PPViewController.m */,
+				C03F6EB01ED2285F00A7F12C /* AppDelegate.h */,
+				C03F6EB11ED2285F00A7F12C /* AppDelegate.m */,
+				C03F6EB31ED2285F00A7F12C /* ViewController.h */,
+				C03F6EB41ED2285F00A7F12C /* ViewController.m */,
+				C03F6EB61ED2285F00A7F12C /* Main.storyboard */,
+				C03F6EBC1ED2285F00A7F12C /* Assets.xcassets */,
+				C03F6EBE1ED2286000A7F12C /* LaunchScreen.storyboard */,
+				C03F6EC11ED2286000A7F12C /* Info.plist */,
+				C03F6EB91ED2285F00A7F12C /* Checkers.xcdatamodeld */,
+				C03F6EAD1ED2285F00A7F12C /* Supporting Files */,
 			);
 			path = Checkers;
 			sourceTree = "<group>";
 		};
-		C0324A5B1ED1CDFE0029C134 /* Supporting Files */ = {
+		C03F6EAD1ED2285F00A7F12C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0324A5C1ED1CDFE0029C134 /* main.m */,
+				C03F6EAE1ED2285F00A7F12C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0324A771ED1CDFE0029C134 /* CheckersTests */ = {
+		C03F6EC91ED2286000A7F12C /* CheckersTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0324A781ED1CDFE0029C134 /* CheckersTests.m */,
-				C0324A7A1ED1CDFE0029C134 /* Info.plist */,
+				C03F6ECA1ED2286000A7F12C /* CheckersTests.m */,
+				C03F6ECC1ED2286000A7F12C /* Info.plist */,
 			);
 			path = CheckersTests;
 			sourceTree = "<group>";
 		};
-		C0324A821ED1CDFE0029C134 /* CheckersUITests */ = {
+		C03F6ED41ED2286000A7F12C /* CheckersUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C0324A831ED1CDFE0029C134 /* CheckersUITests.m */,
-				C0324A851ED1CDFE0029C134 /* Info.plist */,
+				C03F6ED51ED2286100A7F12C /* CheckersUITests.m */,
+				C03F6ED71ED2286100A7F12C /* Info.plist */,
 			);
 			path = CheckersUITests;
-			sourceTree = "<group>";
-		};
-		C0EB66D11ED1D6CD009885E6 /* CheckersClass */ = {
-			isa = PBXGroup;
-			children = (
-				C0EB66C51ED1D020009885E6 /* PPCheckersBoard.h */,
-				C0EB66D41ED1EC15009885E6 /* PPCheckersBoard.m */,
-				C0EB66C11ED1D020009885E6 /* PPCheckersSquare.h */,
-				C0EB66C21ED1D020009885E6 /* PPCheckersSquare.m */,
-				C0EB66C31ED1D020009885E6 /* PPCheckersPieces.h */,
-				C0EB66C41ED1D020009885E6 /* PPCheckersPieces.m */,
-				C0EB66C71ED1D020009885E6 /* PPHelpFunction.h */,
-				C0EB66C81ED1D020009885E6 /* PPHelpFunction.m */,
-				C0EB66C91ED1D020009885E6 /* PPViewController.h */,
-				C0EB66D21ED1EB66009885E6 /* PPViewController.m */,
-			);
-			name = CheckersClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0324A571ED1CDFE0029C134 /* Checkers */ = {
+		C03F6EA91ED2285E00A7F12C /* Checkers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0324A881ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "Checkers" */;
+			buildConfigurationList = C03F6EDA1ED2286100A7F12C /* Build configuration list for PBXNativeTarget "Checkers" */;
 			buildPhases = (
-				C0324A541ED1CDFE0029C134 /* Sources */,
-				C0324A551ED1CDFE0029C134 /* Frameworks */,
-				C0324A561ED1CDFE0029C134 /* Resources */,
+				C03F6EA61ED2285E00A7F12C /* Sources */,
+				C03F6EA71ED2285E00A7F12C /* Frameworks */,
+				C03F6EA81ED2285E00A7F12C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -193,71 +185,71 @@
 			);
 			name = Checkers;
 			productName = Checkers;
-			productReference = C0324A581ED1CDFE0029C134 /* Checkers.app */;
+			productReference = C03F6EAA1ED2285E00A7F12C /* Checkers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0324A731ED1CDFE0029C134 /* CheckersTests */ = {
+		C03F6EC51ED2286000A7F12C /* CheckersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0324A8B1ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "CheckersTests" */;
+			buildConfigurationList = C03F6EDD1ED2286100A7F12C /* Build configuration list for PBXNativeTarget "CheckersTests" */;
 			buildPhases = (
-				C0324A701ED1CDFE0029C134 /* Sources */,
-				C0324A711ED1CDFE0029C134 /* Frameworks */,
-				C0324A721ED1CDFE0029C134 /* Resources */,
+				C03F6EC21ED2286000A7F12C /* Sources */,
+				C03F6EC31ED2286000A7F12C /* Frameworks */,
+				C03F6EC41ED2286000A7F12C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0324A761ED1CDFE0029C134 /* PBXTargetDependency */,
+				C03F6EC81ED2286000A7F12C /* PBXTargetDependency */,
 			);
 			name = CheckersTests;
 			productName = CheckersTests;
-			productReference = C0324A741ED1CDFE0029C134 /* CheckersTests.xctest */;
+			productReference = C03F6EC61ED2286000A7F12C /* CheckersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0324A7E1ED1CDFE0029C134 /* CheckersUITests */ = {
+		C03F6ED01ED2286000A7F12C /* CheckersUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0324A8E1ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "CheckersUITests" */;
+			buildConfigurationList = C03F6EE01ED2286100A7F12C /* Build configuration list for PBXNativeTarget "CheckersUITests" */;
 			buildPhases = (
-				C0324A7B1ED1CDFE0029C134 /* Sources */,
-				C0324A7C1ED1CDFE0029C134 /* Frameworks */,
-				C0324A7D1ED1CDFE0029C134 /* Resources */,
+				C03F6ECD1ED2286000A7F12C /* Sources */,
+				C03F6ECE1ED2286000A7F12C /* Frameworks */,
+				C03F6ECF1ED2286000A7F12C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0324A811ED1CDFE0029C134 /* PBXTargetDependency */,
+				C03F6ED31ED2286000A7F12C /* PBXTargetDependency */,
 			);
 			name = CheckersUITests;
 			productName = CheckersUITests;
-			productReference = C0324A7F1ED1CDFE0029C134 /* CheckersUITests.xctest */;
+			productReference = C03F6ED11ED2286000A7F12C /* CheckersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C0324A501ED1CDFE0029C134 /* Project object */ = {
+		C03F6EA21ED2285D00A7F12C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Pavel Podgornov";
 				TargetAttributes = {
-					C0324A571ED1CDFE0029C134 = {
+					C03F6EA91ED2285E00A7F12C = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
-					C0324A731ED1CDFE0029C134 = {
+					C03F6EC51ED2286000A7F12C = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = C0324A571ED1CDFE0029C134;
+						TestTargetID = C03F6EA91ED2285E00A7F12C;
 					};
-					C0324A7E1ED1CDFE0029C134 = {
+					C03F6ED01ED2286000A7F12C = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = C0324A571ED1CDFE0029C134;
+						TestTargetID = C03F6EA91ED2285E00A7F12C;
 					};
 				};
 			};
-			buildConfigurationList = C0324A531ED1CDFE0029C134 /* Build configuration list for PBXProject "Checkers" */;
+			buildConfigurationList = C03F6EA51ED2285D00A7F12C /* Build configuration list for PBXProject "Checkers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,37 +257,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C0324A4F1ED1CDFE0029C134;
-			productRefGroup = C0324A591ED1CDFE0029C134 /* Products */;
+			mainGroup = C03F6EA11ED2285D00A7F12C;
+			productRefGroup = C03F6EAB1ED2285E00A7F12C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0324A571ED1CDFE0029C134 /* Checkers */,
-				C0324A731ED1CDFE0029C134 /* CheckersTests */,
-				C0324A7E1ED1CDFE0029C134 /* CheckersUITests */,
+				C03F6EA91ED2285E00A7F12C /* Checkers */,
+				C03F6EC51ED2286000A7F12C /* CheckersTests */,
+				C03F6ED01ED2286000A7F12C /* CheckersUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C0324A561ED1CDFE0029C134 /* Resources */ = {
+		C03F6EA81ED2285E00A7F12C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0324A6E1ED1CDFE0029C134 /* LaunchScreen.storyboard in Resources */,
-				C0324A6B1ED1CDFE0029C134 /* Assets.xcassets in Resources */,
-				C0324A661ED1CDFE0029C134 /* Main.storyboard in Resources */,
+				C03F6EC01ED2286000A7F12C /* LaunchScreen.storyboard in Resources */,
+				C03F6EBD1ED2285F00A7F12C /* Assets.xcassets in Resources */,
+				C03F6EB81ED2285F00A7F12C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0324A721ED1CDFE0029C134 /* Resources */ = {
+		C03F6EC41ED2286000A7F12C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0324A7D1ED1CDFE0029C134 /* Resources */ = {
+		C03F6ECF1ED2286000A7F12C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,66 +297,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0324A541ED1CDFE0029C134 /* Sources */ = {
+		C03F6EA61ED2285E00A7F12C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0324A631ED1CDFE0029C134 /* ViewController.m in Sources */,
-				C0324A691ED1CDFE0029C134 /* Checkers.xcdatamodeld in Sources */,
-				C0EB66CF1ED1D020009885E6 /* PPHelpFunction.m in Sources */,
-				C0EB66CD1ED1D020009885E6 /* PPCheckersPieces.m in Sources */,
-				C0EB66D51ED1EC15009885E6 /* PPCheckersBoard.m in Sources */,
-				C0EB66D31ED1EB66009885E6 /* PPViewController.m in Sources */,
-				C0324A601ED1CDFE0029C134 /* AppDelegate.m in Sources */,
-				C0324A5D1ED1CDFE0029C134 /* main.m in Sources */,
-				C0EB66CC1ED1D020009885E6 /* PPCheckersSquare.m in Sources */,
+				C03F6EEF1ED228A600A7F12C /* PPCheckersSquare.m in Sources */,
+				C03F6EB51ED2285F00A7F12C /* ViewController.m in Sources */,
+				C03F6EF01ED228A600A7F12C /* PPHelpFunction.m in Sources */,
+				C03F6EED1ED228A600A7F12C /* PPCheckersBoard.m in Sources */,
+				C03F6EF11ED228A600A7F12C /* PPViewController.m in Sources */,
+				C03F6EEE1ED228A600A7F12C /* PPCheckersPieces.m in Sources */,
+				C03F6EBB1ED2285F00A7F12C /* Checkers.xcdatamodeld in Sources */,
+				C03F6EB21ED2285F00A7F12C /* AppDelegate.m in Sources */,
+				C03F6EAF1ED2285F00A7F12C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0324A701ED1CDFE0029C134 /* Sources */ = {
+		C03F6EC21ED2286000A7F12C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0324A791ED1CDFE0029C134 /* CheckersTests.m in Sources */,
+				C03F6ECB1ED2286000A7F12C /* CheckersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0324A7B1ED1CDFE0029C134 /* Sources */ = {
+		C03F6ECD1ED2286000A7F12C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0324A841ED1CDFE0029C134 /* CheckersUITests.m in Sources */,
+				C03F6ED61ED2286100A7F12C /* CheckersUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C0324A761ED1CDFE0029C134 /* PBXTargetDependency */ = {
+		C03F6EC81ED2286000A7F12C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0324A571ED1CDFE0029C134 /* Checkers */;
-			targetProxy = C0324A751ED1CDFE0029C134 /* PBXContainerItemProxy */;
+			target = C03F6EA91ED2285E00A7F12C /* Checkers */;
+			targetProxy = C03F6EC71ED2286000A7F12C /* PBXContainerItemProxy */;
 		};
-		C0324A811ED1CDFE0029C134 /* PBXTargetDependency */ = {
+		C03F6ED31ED2286000A7F12C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0324A571ED1CDFE0029C134 /* Checkers */;
-			targetProxy = C0324A801ED1CDFE0029C134 /* PBXContainerItemProxy */;
+			target = C03F6EA91ED2285E00A7F12C /* Checkers */;
+			targetProxy = C03F6ED21ED2286000A7F12C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C0324A641ED1CDFE0029C134 /* Main.storyboard */ = {
+		C03F6EB61ED2285F00A7F12C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0324A651ED1CDFE0029C134 /* Base */,
+				C03F6EB71ED2285F00A7F12C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C0324A6C1ED1CDFE0029C134 /* LaunchScreen.storyboard */ = {
+		C03F6EBE1ED2286000A7F12C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0324A6D1ED1CDFE0029C134 /* Base */,
+				C03F6EBF1ED2286000A7F12C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -372,7 +364,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C0324A861ED1CDFE0029C134 /* Debug */ = {
+		C03F6ED81ED2286100A7F12C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		C0324A871ED1CDFE0029C134 /* Release */ = {
+		C03F6ED91ED2286100A7F12C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -462,7 +454,7 @@
 			};
 			name = Release;
 		};
-		C0324A891ED1CDFE0029C134 /* Debug */ = {
+		C03F6EDB1ED2286100A7F12C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -473,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		C0324A8A1ED1CDFE0029C134 /* Release */ = {
+		C03F6EDC1ED2286100A7F12C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -484,7 +476,7 @@
 			};
 			name = Release;
 		};
-		C0324A8C1ED1CDFE0029C134 /* Debug */ = {
+		C03F6EDE1ED2286100A7F12C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		C0324A8D1ED1CDFE0029C134 /* Release */ = {
+		C03F6EDF1ED2286100A7F12C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,7 +500,7 @@
 			};
 			name = Release;
 		};
-		C0324A8F1ED1CDFE0029C134 /* Debug */ = {
+		C03F6EE11ED2286100A7F12C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = CheckersUITests/Info.plist;
@@ -519,7 +511,7 @@
 			};
 			name = Debug;
 		};
-		C0324A901ED1CDFE0029C134 /* Release */ = {
+		C03F6EE21ED2286100A7F12C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = CheckersUITests/Info.plist;
@@ -533,56 +525,53 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0324A531ED1CDFE0029C134 /* Build configuration list for PBXProject "Checkers" */ = {
+		C03F6EA51ED2285D00A7F12C /* Build configuration list for PBXProject "Checkers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0324A861ED1CDFE0029C134 /* Debug */,
-				C0324A871ED1CDFE0029C134 /* Release */,
+				C03F6ED81ED2286100A7F12C /* Debug */,
+				C03F6ED91ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0324A881ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "Checkers" */ = {
+		C03F6EDA1ED2286100A7F12C /* Build configuration list for PBXNativeTarget "Checkers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0324A891ED1CDFE0029C134 /* Debug */,
-				C0324A8A1ED1CDFE0029C134 /* Release */,
+				C03F6EDB1ED2286100A7F12C /* Debug */,
+				C03F6EDC1ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		C0324A8B1ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "CheckersTests" */ = {
+		C03F6EDD1ED2286100A7F12C /* Build configuration list for PBXNativeTarget "CheckersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0324A8C1ED1CDFE0029C134 /* Debug */,
-				C0324A8D1ED1CDFE0029C134 /* Release */,
+				C03F6EDE1ED2286100A7F12C /* Debug */,
+				C03F6EDF1ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		C0324A8E1ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "CheckersUITests" */ = {
+		C03F6EE01ED2286100A7F12C /* Build configuration list for PBXNativeTarget "CheckersUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0324A8F1ED1CDFE0029C134 /* Debug */,
-				C0324A901ED1CDFE0029C134 /* Release */,
+				C03F6EE11ED2286100A7F12C /* Debug */,
+				C03F6EE21ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C0324A671ED1CDFE0029C134 /* Checkers.xcdatamodeld */ = {
+		C03F6EB91ED2285F00A7F12C /* Checkers.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C0324A681ED1CDFE0029C134 /* Checkers.xcdatamodel */,
+				C03F6EBA1ED2285F00A7F12C /* Checkers.xcdatamodel */,
 			);
-			currentVersion = C0324A681ED1CDFE0029C134 /* Checkers.xcdatamodel */;
+			currentVersion = C03F6EBA1ED2285F00A7F12C /* Checkers.xcdatamodel */;
 			path = Checkers.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = C0324A501ED1CDFE0029C134 /* Project object */;
+	rootObject = C03F6EA21ED2285D00A7F12C /* Project object */;
 }

@@ -27,8 +27,8 @@
 {
     self = [super init];
     if (self) {
-        self.fields = [[NSMutableArray alloc] init];
-        self.fieldsBlack = [[NSMutableArray alloc] init];
+        self.squares = [[NSMutableArray alloc] init];
+        self.squaresBlack = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -36,7 +36,7 @@
 
 //Create a board and calculate sizes and coordinates related to this board
 //Создание доски относительно которой расчитываем размеры и координаты
-- (PPCheckersBoard *) createDraughtsBoardWithView : (UIView *) view {
+- (PPCheckersBoard *) createCheckersBoardWithView : (UIView *) view {
     
     //Set color
     //Задаем цвет доски
@@ -44,7 +44,8 @@
     
     //Set borders for the board and make it smaller
     //Чтобы поле не было в притык к границам делаем его чуть меньше
-    CGRect rect = CGRectInset(view.frame, 40, 40);
+    CGFloat lengthSideView = MIN(CGRectGetHeight(view.frame), CGRectGetWidth(view.frame));
+    CGRect rect = CGRectInset(view.frame, lengthSideView / 18, lengthSideView / 18);
     
     
     //Calculate a smallest view sides length to create a board on its base
@@ -54,33 +55,38 @@
     
     //Create invisible view to count the point's coordinate on its base
     //Cделаем невидимый вью что бы относительно него считать координату точки
-    PPCheckersBoard * placeDraughts = [[PPCheckersBoard alloc] initWithFrame:CGRectMake(0, 0, lengthSideBoard, lengthSideBoard)];
-    placeDraughts.center = CGPointMake(CGRectGetMidX(view.frame), CGRectGetMidY(view.frame));
-    placeDraughts.backgroundColor = [UIColor purpleColor];
-    placeDraughts.userInteractionEnabled = NO;
+    PPCheckersBoard * boardCheckers = [[PPCheckersBoard alloc] initWithFrame:CGRectMake(0, 0, lengthSideBoard, lengthSideBoard)];
+    boardCheckers.center = CGPointMake(CGRectGetMidX(view.frame), CGRectGetMidY(view.frame));
+    boardCheckers.backgroundColor = [UIColor purpleColor];
+    boardCheckers.autoresizingMask =
+    UIViewAutoresizingFlexibleLeftMargin |
+    UIViewAutoresizingFlexibleRightMargin |
+    UIViewAutoresizingFlexibleTopMargin |
+    UIViewAutoresizingFlexibleBottomMargin;
+    boardCheckers.userInteractionEnabled = NO;
     
-    return placeDraughts;  
+    return boardCheckers;
 }
 
 
 
 //Add squares to the board
 //Добавляем квадраты на поле
-+ (void) addFieldOnView : (UIView *) view WithPlace : (PPCheckersBoard *) place {
++ (void) addSquareOnView : (UIView *) view WithBoard : (PPCheckersBoard *) board {
 
     //The highest point of the left square
     //Левая верхняя точка первой клетки
-    CGFloat boardXPoint = CGRectGetMinX(place.frame);
-    CGFloat boardYPoint = CGRectGetMinY(place.frame);
+    CGFloat boardXPoint = CGRectGetMinX(board.frame);
+    CGFloat boardYPoint = CGRectGetMinY(board.frame);
     
     //Square side length
     //Длина стороны клетки
-    CGFloat lengthSideField = CGRectGetWidth(place.frame) / 8;
+    CGFloat lengthSideSquare = CGRectGetWidth(board.frame) / 8;
     
     //Sides array
     //Массивы для клеток
-    NSMutableArray * fields = [[NSMutableArray alloc] init];
-    NSMutableArray * fieldsBlack = [[NSMutableArray alloc] init];
+    NSMutableArray * squares = [[NSMutableArray alloc] init];
+    NSMutableArray * squaresBlack = [[NSMutableArray alloc] init];
     
     
     
@@ -93,64 +99,64 @@
     //Если и x и у обе четные или обе не четные
             if (  ((i % 2) & (j % 2))  |  (!(i % 2) & !(j % 2))  ) {
                 
-                PPCheckersSquare * field = [[PPCheckersSquare alloc] initWhiteFieldWithRect:CGRectMake(boardXPoint, boardYPoint, lengthSideField, lengthSideField)];
+                PPCheckersSquare * square = [[PPCheckersSquare alloc] initLightSquareWithRect:CGRectMake(boardXPoint, boardYPoint, lengthSideSquare, lengthSideSquare)];
     //Set x:y position
-    //записываем положение x:y
-                 field.position = CGPointMake(i, j);
+    //Записываем положение x:y
+                 square.position = CGPointMake(i, j);
     //Add squares to a board
-    //добавляем клетки на поле
-                 [view addSubview:field];
+    //Добавляем клетки на поле
+                 [view addSubview:square];
     //Combine squares into an array
-    //собираем все клетки в массив
-                 [fields addObject:field];
+    //Собираем все клетки в массив
+                 [squares addObject:square];
      
              } else {
      
-                 PPCheckersSquare * field = [[PPCheckersSquare alloc] initBlackFieldWithRect:CGRectMake(boardXPoint, boardYPoint, lengthSideField, lengthSideField)];
-                 field.position = CGPointMake(i, j);
-                 [view addSubview:field];
-                 [fields addObject:field];
+                 PPCheckersSquare * square = [[PPCheckersSquare alloc] initDarkSquareWithRect:CGRectMake(boardXPoint, boardYPoint, lengthSideSquare, lengthSideSquare)];
+                 square.position = CGPointMake(i, j);
+                 [view addSubview:square];
+                 [squares addObject:square];
       //Dark squares combine into an additioinal array
-      //черные клетки еще и в другой массив
-                 [fieldsBlack addObject:field];
+      //Черные клетки еще и в другой массив
+                 [squaresBlack addObject:square];
         
              }
              
-             boardYPoint = boardYPoint + lengthSideField;
+             boardYPoint = boardYPoint + lengthSideSquare;
          }
          
-    boardYPoint = CGRectGetMinY(place.frame);
-    boardXPoint = boardXPoint + lengthSideField;
+    boardYPoint = CGRectGetMinY(board.frame);
+    boardXPoint = boardXPoint + lengthSideSquare;
     }
     
-    place.fields = fields;
-    place.fieldsBlack = fieldsBlack;
+    board.squares = squares;
+    board.squaresBlack = squaresBlack;
     
 }
 
 
 //Add pieces to squares
-//добавляем шашки на клетки
-+ (void) addPiecesOnView : (UIView *) view WithPlace : (PPCheckersBoard *) place {
+//Добавляем шашки на клетки
++ (void) addPiecesOnView : (UIView *) view WithBoard : (PPCheckersBoard *) board {
     
     
     //Check black squares array for being inside lines before the 3rd and after 4th
     //Проверяем массив черных клеток на нахожение в строках до 3, и после 4
-    for (int i = (int)place.fieldsBlack.count - 1; i >= 0; i--) {
-        PPCheckersSquare * field = [place.fieldsBlack objectAtIndex:i];
+    for (int i = (int)board.squaresBlack.count - 1; i >= 0; i--) {
+        PPCheckersSquare * square = [board.squaresBlack objectAtIndex:i];
         
         //If there are pieces before the 3rd, they are dark
-        //если до третьей строки тогда будут черные фишки
-        if (field.position.y < 3) {
+        //Если до третьей строки тогда будут черные фишки
+        if (square.position.y < 3) {
             
-            PPCheckersPieces * pieces = [[PPCheckersPieces alloc] initBlackPiecesWithFieldWidth:field];
+            PPCheckersPieces * pieces = [[PPCheckersPieces alloc] initBlackPiecesWithSquareWidth:square];
             [view addSubview:pieces];
             
             //If there are pieces after the 4th, they are light
-            //если после четвертой то белые
-        } else if (field.position.y > 4) {
+            //Если после четвертой то белые
+        } else if (square.position.y > 4) {
             
-            PPCheckersPieces * pieces = [[PPCheckersPieces alloc] initWhitePiecesWithFieldWidth:field];
+            PPCheckersPieces * pieces = [[PPCheckersPieces alloc] initWhitePiecesWithSquareWidth:square];
             [view addSubview:pieces];
             
         }

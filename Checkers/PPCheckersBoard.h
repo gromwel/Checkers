@@ -11,12 +11,12 @@
 
 @interface PPCheckersBoard : UIView
 
-@property (nonatomic, strong) NSMutableArray * fields;
-@property (nonatomic, strong) NSMutableArray * fieldsBlack;
+@property (nonatomic, strong) NSMutableArray * squares;
+@property (nonatomic, strong) NSMutableArray * squaresBlack;
 
 
-+ (void) addFieldOnView : (UIView *) view WithPlace : (PPCheckersBoard *) place;
-+ (void) addPiecesOnView : (UIView *) view WithPlace : (PPCheckersBoard *) place;
-- (PPCheckersBoard *) createDraughtsBoardWithView : (UIView *) view;
++ (void) addSquareOnView : (UIView *) view WithBoard : (PPCheckersBoard *) board;
++ (void) addPiecesOnView : (UIView *) view WithBoard : (PPCheckersBoard *) board;
+- (PPCheckersBoard *) createCheckersBoardWithView : (UIView *) view;
 
 @end

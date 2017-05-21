@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0324A571ED1CDFE0029C134"
+               BlueprintIdentifier = "C03F6EA91ED2285E00A7F12C"
                BuildableName = "Checkers.app"
                BlueprintName = "Checkers"
                ReferencedContainer = "container:Checkers.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0324A731ED1CDFE0029C134"
+               BlueprintIdentifier = "C03F6EC51ED2286000A7F12C"
                BuildableName = "CheckersTests.xctest"
                BlueprintName = "CheckersTests"
                ReferencedContainer = "container:Checkers.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0324A7E1ED1CDFE0029C134"
+               BlueprintIdentifier = "C03F6ED01ED2286000A7F12C"
                BuildableName = "CheckersUITests.xctest"
                BlueprintName = "CheckersUITests"
                ReferencedContainer = "container:Checkers.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0324A571ED1CDFE0029C134"
+            BlueprintIdentifier = "C03F6EA91ED2285E00A7F12C"
             BuildableName = "Checkers.app"
             BlueprintName = "Checkers"
             ReferencedContainer = "container:Checkers.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0324A571ED1CDFE0029C134"
+            BlueprintIdentifier = "C03F6EA91ED2285E00A7F12C"
             BuildableName = "Checkers.app"
             BlueprintName = "Checkers"
             ReferencedContainer = "container:Checkers.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0324A571ED1CDFE0029C134"
+            BlueprintIdentifier = "C03F6EA91ED2285E00A7F12C"
             BuildableName = "Checkers.app"
             BlueprintName = "Checkers"
             ReferencedContainer = "container:Checkers.xcodeproj">

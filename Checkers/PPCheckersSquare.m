@@ -19,7 +19,7 @@
 }
 */
 
-- (instancetype)initBlackFieldWithRect : (CGRect) rect
+- (instancetype)initDarkSquareWithRect : (CGRect) rect
 {
     self = [super init];
     if (self) {
@@ -35,7 +35,7 @@
     return self;
 }
 
-- (instancetype)initWhiteFieldWithRect : (CGRect) rect
+- (instancetype)initLightSquareWithRect : (CGRect) rect
 {
     self = [super init];
     if (self) {

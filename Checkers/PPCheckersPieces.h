@@ -10,7 +10,7 @@
 
 @interface PPCheckersPieces : PPCheckersSquare
 
-- (instancetype)initBlackPiecesWithFieldWidth : (PPCheckersSquare *) field;
-- (instancetype)initWhitePiecesWithFieldWidth : (PPCheckersSquare *) field;
+- (instancetype)initBlackPiecesWithSquareWidth : (PPCheckersSquare *) square;
+- (instancetype)initWhitePiecesWithSquareWidth : (PPCheckersSquare *) square;
 
 @end

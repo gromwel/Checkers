@@ -19,48 +19,49 @@
 }
 */
 
-- (instancetype)initBlackPiecesWithFieldWidth : (PPCheckersSquare *) field
+- (instancetype)initBlackPiecesWithSquareWidth : (PPCheckersSquare *) square
 {
     self = [super init];
     if (self) {
-        CGFloat width = CGRectGetWidth(field.bounds);
+        CGFloat width = CGRectGetWidth(square.bounds);
         
-        field.type = typeBlackMen;
+        square.type = typeDarkMen;
         
         self.backgroundColor = [[PPHelpFunction alloc] colorWithR:106.f G:106.f B:108.f];
         self.layer.borderColor = [[[PPHelpFunction alloc] colorWithR:196.f G:191.f B:187.f] CGColor];
         self.layer.borderWidth = 1.f;
         self.frame = CGRectMake(0, 0, (0.8f * width), (0.8f * width));
         
-        self.center = CGPointMake(CGRectGetMidX(field.frame), CGRectGetMidY(field.frame));
-        self.position = field.position;
+        self.center = CGPointMake(CGRectGetMidX(square.frame), CGRectGetMidY(square.frame));
+        self.position = square.position;
         
         self.layer.cornerRadius = CGRectGetWidth(self.frame)/2;
-        self.type = typeBlackMen;
+        self.type = typeDarkMen;
 
     }
     return self;
 }
 
 
-- (instancetype)initWhitePiecesWithFieldWidth : (PPCheckersSquare *) field
+- (instancetype)initWhitePiecesWithSquareWidth : (PPCheckersSquare *) square
 {
     self = [super init];
     if (self) {
-        CGFloat width = CGRectGetWidth(field.bounds);
+        CGFloat width = CGRectGetWidth(square.bounds);
         
-        field.type = typeWhiteMen;
+        square.type = typeLightMen;
         
         self.backgroundColor = [[PPHelpFunction alloc] colorWithR:244.f G:217.f B:206.f];
         self.layer.borderColor = [[[PPHelpFunction alloc] colorWithR:236.f G:137.f B:142.f] CGColor];
         self.layer.borderWidth = 1.f;
         self.frame = CGRectMake(0, 0, (0.8f * width), (0.8f * width));
         
-        self.center = CGPointMake(CGRectGetMidX(field.frame), CGRectGetMidY(field.frame));
-        self.position = field.position;
+        self.center = CGPointMake(CGRectGetMidX(square.frame), CGRectGetMidY(square.frame));
+        self.position = square.position;
         
         self.layer.cornerRadius = CGRectGetWidth(self.frame)/2;
-        self.type = typeWhiteMen;
+        self.type = typeLightMen;
+
 
     }
     return self;

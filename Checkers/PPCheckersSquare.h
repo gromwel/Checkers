@@ -10,8 +10,8 @@
 
 typedef enum {
     
-    typeBlackMen,
-    typeWhiteMen,
+    typeDarkMen,
+    typeLightMen,
     typeKings,
     typeNone
     
@@ -23,8 +23,8 @@ typedef enum {
 @property (nonatomic, assign) CGPoint position;
 @property (nonatomic, assign) CBPiecesType type;
 
-- (instancetype)initBlackFieldWithRect : (CGRect) rect;
-- (instancetype)initWhiteFieldWithRect : (CGRect) rect;
+- (instancetype)initDarkSquareWithRect : (CGRect) rect;
+- (instancetype)initLightSquareWithRect : (CGRect) rect;
 
 
 @end
