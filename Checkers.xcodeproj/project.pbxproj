@@ -16,6 +16,11 @@
 		C0324A6E1ED1CDFE0029C134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0324A6C1ED1CDFE0029C134 /* LaunchScreen.storyboard */; };
 		C0324A791ED1CDFE0029C134 /* CheckersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A781ED1CDFE0029C134 /* CheckersTests.m */; };
 		C0324A841ED1CDFE0029C134 /* CheckersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0324A831ED1CDFE0029C134 /* CheckersUITests.m */; };
+		C0EB66CC1ED1D020009885E6 /* PPCheckersSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66C21ED1D020009885E6 /* PPCheckersSquare.m */; };
+		C0EB66CD1ED1D020009885E6 /* PPCheckersPieces.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66C41ED1D020009885E6 /* PPCheckersPieces.m */; };
+		C0EB66CF1ED1D020009885E6 /* PPHelpFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66C81ED1D020009885E6 /* PPHelpFunction.m */; };
+		C0EB66D31ED1EB66009885E6 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66D21ED1EB66009885E6 /* PPViewController.m */; };
+		C0EB66D51ED1EC15009885E6 /* PPCheckersBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB66D41ED1EC15009885E6 /* PPCheckersBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		C0324A7F1ED1CDFE0029C134 /* CheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0324A831ED1CDFE0029C134 /* CheckersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckersUITests.m; sourceTree = "<group>"; };
 		C0324A851ED1CDFE0029C134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EB66C11ED1D020009885E6 /* PPCheckersSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersSquare.h; sourceTree = "<group>"; };
+		C0EB66C21ED1D020009885E6 /* PPCheckersSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersSquare.m; sourceTree = "<group>"; };
+		C0EB66C31ED1D020009885E6 /* PPCheckersPieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersPieces.h; sourceTree = "<group>"; };
+		C0EB66C41ED1D020009885E6 /* PPCheckersPieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersPieces.m; sourceTree = "<group>"; };
+		C0EB66C51ED1D020009885E6 /* PPCheckersBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckersBoard.h; sourceTree = "<group>"; };
+		C0EB66C71ED1D020009885E6 /* PPHelpFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHelpFunction.h; sourceTree = "<group>"; };
+		C0EB66C81ED1D020009885E6 /* PPHelpFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHelpFunction.m; sourceTree = "<group>"; };
+		C0EB66C91ED1D020009885E6 /* PPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		C0EB66D21ED1EB66009885E6 /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
+		C0EB66D41ED1EC15009885E6 /* PPCheckersBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckersBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,7 @@
 		C0324A5A1ED1CDFE0029C134 /* Checkers */ = {
 			isa = PBXGroup;
 			children = (
+				C0EB66D11ED1D6CD009885E6 /* CheckersClass */,
 				C0324A5E1ED1CDFE0029C134 /* AppDelegate.h */,
 				C0324A5F1ED1CDFE0029C134 /* AppDelegate.m */,
 				C0324A611ED1CDFE0029C134 /* ViewController.h */,
@@ -141,6 +157,23 @@
 				C0324A851ED1CDFE0029C134 /* Info.plist */,
 			);
 			path = CheckersUITests;
+			sourceTree = "<group>";
+		};
+		C0EB66D11ED1D6CD009885E6 /* CheckersClass */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB66C51ED1D020009885E6 /* PPCheckersBoard.h */,
+				C0EB66D41ED1EC15009885E6 /* PPCheckersBoard.m */,
+				C0EB66C11ED1D020009885E6 /* PPCheckersSquare.h */,
+				C0EB66C21ED1D020009885E6 /* PPCheckersSquare.m */,
+				C0EB66C31ED1D020009885E6 /* PPCheckersPieces.h */,
+				C0EB66C41ED1D020009885E6 /* PPCheckersPieces.m */,
+				C0EB66C71ED1D020009885E6 /* PPHelpFunction.h */,
+				C0EB66C81ED1D020009885E6 /* PPHelpFunction.m */,
+				C0EB66C91ED1D020009885E6 /* PPViewController.h */,
+				C0EB66D21ED1EB66009885E6 /* PPViewController.m */,
+			);
+			name = CheckersClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +311,13 @@
 			files = (
 				C0324A631ED1CDFE0029C134 /* ViewController.m in Sources */,
 				C0324A691ED1CDFE0029C134 /* Checkers.xcdatamodeld in Sources */,
+				C0EB66CF1ED1D020009885E6 /* PPHelpFunction.m in Sources */,
+				C0EB66CD1ED1D020009885E6 /* PPCheckersPieces.m in Sources */,
+				C0EB66D51ED1EC15009885E6 /* PPCheckersBoard.m in Sources */,
+				C0EB66D31ED1EB66009885E6 /* PPViewController.m in Sources */,
 				C0324A601ED1CDFE0029C134 /* AppDelegate.m in Sources */,
 				C0324A5D1ED1CDFE0029C134 /* main.m in Sources */,
+				C0EB66CC1ED1D020009885E6 /* PPCheckersSquare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +549,7 @@
 				C0324A8A1ED1CDFE0029C134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0324A8B1ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "CheckersTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +558,7 @@
 				C0324A8D1ED1CDFE0029C134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0324A8E1ED1CDFE0029C134 /* Build configuration list for PBXNativeTarget "CheckersUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +567,7 @@
 				C0324A901ED1CDFE0029C134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
