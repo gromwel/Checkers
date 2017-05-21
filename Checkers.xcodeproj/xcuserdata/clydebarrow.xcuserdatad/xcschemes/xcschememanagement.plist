@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Checkers Demo.xcscheme</key>
+		<key>Checkers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C0324A151ED1C8690029C134</key>
+		<key>C0324A571ED1CDFE0029C134</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C0324A311ED1C86A0029C134</key>
+		<key>C0324A731ED1CDFE0029C134</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C0324A3C1ED1C86A0029C134</key>
+		<key>C0324A7E1ED1CDFE0029C134</key>
 		<dict>
 			<key>primary</key>
 			<true/>

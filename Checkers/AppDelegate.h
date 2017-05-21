@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  Checkers Demo
+//  Checkers
 //
 //  Created by Clyde Barrow on 21.05.17.
 //  Copyright © 2017 Pavel Podgornov. All rights reserved.

@@ -1,6 +1,6 @@
 //
-//  Checkers_DemoUITests.m
-//  Checkers DemoUITests
+//  CheckersUITests.m
+//  CheckersUITests
 //
 //  Created by Clyde Barrow on 21.05.17.
 //  Copyright © 2017 Pavel Podgornov. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface Checkers_DemoUITests : XCTestCase
+@interface CheckersUITests : XCTestCase
 
 @end
 
-@implementation Checkers_DemoUITests
+@implementation CheckersUITests
 
 - (void)setUp {
     [super setUp];

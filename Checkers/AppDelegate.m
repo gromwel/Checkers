@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Checkers Demo
+//  Checkers
 //
 //  Created by Clyde Barrow on 21.05.17.
 //  Copyright © 2017 Pavel Podgornov. All rights reserved.
@@ -58,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"Checkers_Demo"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"Checkers"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.
