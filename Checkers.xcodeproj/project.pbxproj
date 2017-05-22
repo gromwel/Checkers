@@ -118,16 +118,7 @@
 		C03F6EAC1ED2285F00A7F12C /* Checkers */ = {
 			isa = PBXGroup;
 			children = (
-				C03F6EE31ED228A600A7F12C /* PPCheckersBoard.h */,
-				C03F6EE41ED228A600A7F12C /* PPCheckersBoard.m */,
-				C03F6EE51ED228A600A7F12C /* PPCheckersPieces.h */,
-				C03F6EE61ED228A600A7F12C /* PPCheckersPieces.m */,
-				C03F6EE71ED228A600A7F12C /* PPCheckersSquare.h */,
-				C03F6EE81ED228A600A7F12C /* PPCheckersSquare.m */,
-				C03F6EE91ED228A600A7F12C /* PPHelpFunction.h */,
-				C03F6EEA1ED228A600A7F12C /* PPHelpFunction.m */,
-				C03F6EEB1ED228A600A7F12C /* PPViewController.h */,
-				C03F6EEC1ED228A600A7F12C /* PPViewController.m */,
+				C0AFA3651ED37449004583D6 /* Checkers Class */,
 				C03F6EB01ED2285F00A7F12C /* AppDelegate.h */,
 				C03F6EB11ED2285F00A7F12C /* AppDelegate.m */,
 				C03F6EB31ED2285F00A7F12C /* ViewController.h */,
@@ -166,6 +157,23 @@
 				C03F6ED71ED2286100A7F12C /* Info.plist */,
 			);
 			path = CheckersUITests;
+			sourceTree = "<group>";
+		};
+		C0AFA3651ED37449004583D6 /* Checkers Class */ = {
+			isa = PBXGroup;
+			children = (
+				C03F6EE31ED228A600A7F12C /* PPCheckersBoard.h */,
+				C03F6EE41ED228A600A7F12C /* PPCheckersBoard.m */,
+				C03F6EE51ED228A600A7F12C /* PPCheckersPieces.h */,
+				C03F6EE61ED228A600A7F12C /* PPCheckersPieces.m */,
+				C03F6EE71ED228A600A7F12C /* PPCheckersSquare.h */,
+				C03F6EE81ED228A600A7F12C /* PPCheckersSquare.m */,
+				C03F6EE91ED228A600A7F12C /* PPHelpFunction.h */,
+				C03F6EEA1ED228A600A7F12C /* PPHelpFunction.m */,
+				C03F6EEB1ED228A600A7F12C /* PPViewController.h */,
+				C03F6EEC1ED228A600A7F12C /* PPViewController.m */,
+			);
+			name = "Checkers Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gromwel.Checkers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -473,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gromwel.Checkers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -541,6 +551,7 @@
 				C03F6EDC1ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03F6EDD1ED2286100A7F12C /* Build configuration list for PBXNativeTarget "CheckersTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +560,7 @@
 				C03F6EDF1ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03F6EE01ED2286100A7F12C /* Build configuration list for PBXNativeTarget "CheckersUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +569,7 @@
 				C03F6EE21ED2286100A7F12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

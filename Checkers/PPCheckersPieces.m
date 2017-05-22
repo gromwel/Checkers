@@ -33,10 +33,12 @@
         self.frame = CGRectMake(0, 0, (0.8f * width), (0.8f * width));
         
         self.center = CGPointMake(CGRectGetMidX(square.frame), CGRectGetMidY(square.frame));
+        
         self.position = square.position;
         
         self.layer.cornerRadius = CGRectGetWidth(self.frame)/2;
         self.type = typeDarkMen;
+        self.userInteractionEnabled = YES;
 
     }
     return self;
@@ -61,6 +63,7 @@
         
         self.layer.cornerRadius = CGRectGetWidth(self.frame)/2;
         self.type = typeLightMen;
+        self.userInteractionEnabled = YES;
 
 
     }
