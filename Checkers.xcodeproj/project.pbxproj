@@ -243,6 +243,7 @@
 				TargetAttributes = {
 					C03F6EA91ED2285E00A7F12C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Q2B57JKPWT;
 						ProvisioningStyle = Automatic;
 					};
 					C03F6EC51ED2286000A7F12C = {
@@ -466,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2B57JKPWT;
 				INFOPLIST_FILE = Checkers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gromwel.Checkers;
@@ -478,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2B57JKPWT;
 				INFOPLIST_FILE = Checkers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gromwel.Checkers;
