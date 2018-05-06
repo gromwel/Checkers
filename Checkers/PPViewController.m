@@ -52,6 +52,8 @@
 
 
 - (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
     //Create the board
     //Создаем доску
     
